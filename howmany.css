@@ -1,0 +1,210 @@
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+.frame-1 {
+  background: #000000;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.ellipse-2 {
+  width: 291px;
+  height: 291px;
+  position: absolute;
+  left: 1442px;
+  top: 665px;
+  overflow: visible;
+}
+.ellipse-7 {
+  width: 127px;
+  height: 127px;
+  position: absolute;
+  left: 822px;
+  top: 829px;
+  overflow: visible;
+}
+.ellipse-10 {
+  width: 217px;
+  height: 216px;
+  position: absolute;
+  left: 322px;
+  top: -35px;
+  overflow: visible;
+}
+.ellipse-5 {
+  width: 181px;
+  height: 181px;
+  position: absolute;
+  left: 1100px;
+  top: 524px;
+  overflow: visible;
+}
+.ellipse-8 {
+  width: 221px;
+  height: 220px;
+  position: absolute;
+  left: 129px;
+  top: 505px;
+  overflow: visible;
+}
+.ellipse-11 {
+  width: 271px;
+  height: 269px;
+  position: absolute;
+  left: 231px;
+  top: 465px;
+  overflow: visible;
+}
+.ellipse-6 {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 24px;
+  top: 61px;
+  overflow: visible;
+}
+.ellipse-9 {
+  width: 141px;
+  height: 141px;
+  position: absolute;
+  left: 586px;
+  top: 324px;
+  overflow: visible;
+}
+.ellipse-4 {
+  width: 376px;
+  height: 376px;
+  position: absolute;
+  left: -125px;
+  top: 832px;
+  overflow: visible;
+}
+.ellipse-3 {
+  width: 533px;
+  height: 533px;
+  position: absolute;
+  left: 848px;
+  top: -267px;
+  overflow: visible;
+}
+.ellipse-1 {
+  width: 432px;
+  height: 432px;
+  position: absolute;
+  left: 1629px;
+  top: -119px;
+  overflow: visible;
+}
+.how-many-players {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 390px;
+  top: 73px;
+  width: 1140px;
+  height: 160px;
+}
+._2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 334px;
+  top: 520px;
+  width: 66px;
+  height: 160px;
+}
+.ellipse-14 {
+  width: 271px;
+  height: 269px;
+  position: absolute;
+  left: 1145px;
+  top: 465px;
+  overflow: visible;
+}
+._5 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 1248px;
+  top: 520px;
+  width: 66px;
+  height: 160px;
+}
+.ellipse-15 {
+  width: 271px;
+  height: 269px;
+  position: absolute;
+  left: 1451px;
+  top: 457px;
+  overflow: visible;
+}
+.ellipse-16 {
+  width: 271px;
+  height: 269px;
+  position: absolute;
+  left: 1451px;
+  top: 457px;
+  overflow: visible;
+}
+._6 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 1554px;
+  top: 512px;
+  width: 66px;
+  height: 160px;
+}
+.ellipse-12 {
+  width: 271px;
+  height: 269px;
+  position: absolute;
+  left: 537px;
+  top: 465px;
+  overflow: visible;
+}
+._3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 640px;
+  top: 520px;
+  width: 66px;
+  height: 160px;
+}
+.ellipse-13 {
+  width: 271px;
+  height: 269px;
+  position: absolute;
+  left: 843px;
+  top: 465px;
+  overflow: visible;
+}
+._4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Jaro-Regular", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  position: absolute;
+  left: 946px;
+  top: 520px;
+  width: 66px;
+  height: 160px;
+}
