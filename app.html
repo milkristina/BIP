@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tips and Budget Tracking App</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="background">
+  <img src="ellipse10.svg" class="bg-svg" style="left: 1442px; top: 665px; width: 291px; height: 291px;" />
+  <img src="ellipse7.svg" class="bg-svg" style="left: 822px; top: 829px; width: 127px; height: 127px;" />
+  <img src="ellipse10.svg" class="bg-svg" style="left: 322px; top: -35px; width: 217px; height: 216px;" />
+  <img src="ellipse5.svg" class="bg-svg" style="left: 1100px; top: 524px; width: 181px; height: 181px;" />
+  <img src="ellipse8.svg" class="bg-svg" style="left: 129px; top: 505px; width: 221px; height: 220px;" />
+  <img src="ellipse6.svg" class="bg-svg" style="left: 24px; top: 61px; width: 120px; height: 120px;" />
+  <img src="ellipse6.svg" class="bg-svg" style="left: 586px; top: 324px; width: 141px; height: 141px;" />
+  <img src="ellipse9.svg" class="bg-svg" style="left: -125px; top: 832px; width: 376px; height: 376px;" />
+  <img src="ellipse5.svg" class="bg-svg" style="left: 848px; top: -267px; width: 533px; height: 533px;" />
+  <img src="ellipse6.svg" class="bg-svg" style="left: 1629px; top: -119px; width: 432px; height: 432px;" />
+</div>
+
+<img src="Bear.png" alt="Descriptive alt text for the PNG figure" class="background-figure" />
+
+  <main aria-live="polite">
+    <!-- Home screen -->
+    <section id="home" role="main">
+      <button id="btn-tips" type="button" aria-label="Go to Tips section">tips</button>
+      <button id="btn-budget" type="button" aria-label="Go to Budget Tracking section">budget tracking</button>
+    </section>
+
+    <!-- Tips screen -->
+    <section id="tips-page" role="main" aria-hidden="true">
+      <div id="tips-list" role="list" aria-label="Tips list">
+      </div>
+      <footer id="tips-footer">
+        <button id="btn-back-from-tips" type="button" aria-label="Back to home">Back</button>
+      </footer>
+    </section>
+
+    <!-- Budget Tracking screen -->
+    <section id="budget-page" role="main" aria-hidden="true" class="budget-container">
+      <h2>Family budget</h2>
+      <div class="budget-tables">
+        <table class="budget-table income-table" aria-label="Income category">
+          <thead>
+            <tr><th colspan="2">Income</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Salary</td><td>2375</td></tr>
+            <tr><td>Geschwisterstaffelung</td><td>165.20</td></tr>
+            <tr class="total-row"><td>Total</td><td>2,540.20</td></tr>
+          </tbody>
+        </table>
+
+        <table class="budget-table fixed-expenses-table" aria-label="Fixed expenses category">
+          <thead>
+            <tr><th colspan="2">Fixed expenses</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Rent</td><td>825</td></tr>
+            <tr><td>Utilities</td><td>146.25</td></tr>
+            <tr><td>Internet</td><td>52</td></tr>
+            <tr class="total-row"><td>Total</td><td>1023.25</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Game player expenses</h3>
+      <table class="budget-table player-expenses-table" aria-label="Player expenses during the game">
+        <thead>
+          <tr><th>Item</th><th>Cost</th></tr>
+        </thead>
+        <tbody>
+          <!-- Contents empty for now -->
+        </tbody>
+      </table>
+
+      <button class="back-btn" id="btn-back-from-budget" type="button" aria-label="Back to home">Back</button>
+    </section>
+  </main>
+
+  <!-- Modal pop-up -->
+  <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc" tabindex="-1">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close info dialog" id="modal-close-btn">
+        &times;
+      </button>
+      <h2 class="modal-title" id="modal-title">Modal Title</h2>
+      <div id="modal-desc" class="modal-text">Modal text goes here</div>
+    </div>
+  </div>
+
+<script src="appscript.js" defer></script>
+</body>
+</html>
